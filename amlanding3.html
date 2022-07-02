@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="amlanding.css">
+
+    <title>BE HEALTHY WITH H2W(OFFICIAL)</title>
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back <br> To Top</button>
+        <div class="nav">
+            <h1> <a href="index.html" target="blank">H2W</a></h1>
+            <ul class="nav-details">
+                <li> <a href="amlanding3.html">home</a></li>
+                <li onclick="scrlpdt()">products</li>
+                <li onclick="scrlabt()">about</li>
+                <li onclick="scrlcnt()">contact</li>
+            </ul>
+        </div>
+        <div class="about">
+            <br>
+            <h1>ABOUT US</h1>
+            <br>
+            <p>H2W stands for HEALTH2WEALTH</p>
+            <p>Here, you willbe provided various products that will help you to be healthy,to be fit ,to reduce fat and
+                to reduce weight and much much more</p>
+            <p>This website is only build for marketing purposes and it's main aim is to provide buying links of
+                affiliate products from trusted websites</p>
+            <p>Customers can click the link of the product you can click on the image and check details about the
+                product you can click on the image available on the website
+            </p>
+            <p>this is a landing page where you can look fpor various products and choose the product you can click on
+                the image you are interested
+                for</p>
+            <br><br>
+        </div>
+        <div class="items">
+            <h1>products</h1>
+            <div class="items-details" id="i1">
+                <a href="https://9c93cjnjrzdpbu1aspi8upyr7e.hop.clickbank.net" target="blank"><img
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISEhUREhESEhERERESDxIREhERERERGBQZGRgUGBgcIS8lHB4rIRgYJzgmKy80NTU1GiQ7QDszPy40NzEBDAwMEA8QHxISHzQrISs0NDQ0NDQ0NDQ2NDY0NDQ0NDQ0NDUxNDQ0NTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ1NDQ0NP/AABEIALQBGAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EAEQQAAICAQMBBgIGBgcGBwAAAAECABEDBBIhMQUGEyJBUWFxFCMygZGxM0JScqHRB1RigpPB0lOSouHw8RUkRGODlOL/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAArEQACAgEEAQIFBAMAAAAAAAAAAQIRAwQSITFBMlETFCJhoQVxgZHB8PH/2gAMAwEAAhEDEQA/APUY8YSUsmyJjLV89I7SF8VUACZaviRQSIk1MQiYEeowkoFEdscCOYoEiAj1Oc7Y7ZyVWnZAPV2AJb90ngD5j8Jz2j7T1ByENnzFi6DZvbatXdC+LFcdOPiZzS1UYy2/nwYyzxTpcnosYzldP3kbEazncl8tQDqL6/H5dZ1GnzpkRcmNw6OodHU2rKRYIM1x5Yz6LhkUlwPUVSUaaljVGjmKAETIGTMiYCBkSBWFIkajECKxbZdwaXd5m6eg9TLXgIP1V/AH84nIaiZO2KppvpVPTg/D+Uo5cZU0f+4jUrE4tFdhBtDsIB5aIZXeAcQ7SBEtGbKjpIrjllljBJVi2gtsY45ZCSQSDYlErrjiloJFCyqNQNJAyuHhN856N7CkiNugS8QeFDsPcaoMPH3RUFhA0kGgC0krwoLD3Oa/pAz510TJpr8XLkTHauEYJyzUxIonaF6/rToQ8wu+GZE04zZCQmHIrOQrOaa1FADruZR7cyMlqLomUntdHCJr9TjRfFxqX/X2tSH8BQb3ri+ntBtrUdi7JsZhtt9xRSACoNVyWAphzxXQ819V2zkYbkxbASdoyLbAehIVuPlBtrfFxhSu11YFuoUgc3Y976V+r+Pkyi/KOSCaludIjrWW/DGS2YAkllG0WRfBquBXT4VPQf6N2dNO+nayuN9+Mmq2uSSB8AwJ/vGeeajs4FQzZQq7Rt2Y91f3rqdp/Rd2c+NNTkLsyO+NEBsAMgYu1Weu9entOnA/qSTNcck5Umd/GiuKegdIxiiiMAGqRIk5EwERqPjW2A9zzHqCz79p8Ngj1SOw3BSeASPWDAn2v2zh0qbsjearVB9pvu9B8Z5t2t3q1Wfg5DiSz5cRKXz0Yg2fxljtnsHtDxGfKjZrP6TGxdT7CgNw9vs0Jj+B4bAZF2uH2sDQO5gdim+nI+Pr7Tgy5ZeeDp+mKvs1ewe9Oo07hcjtlwkjcuRizKPdWP2fl0+XWeh49bi1GMZMTBgCL9GF+hHUHpPGDqsLGsasoRq3M6FW5I4tuoI6D5e07DuThUuzrqkY7abBj33RPBewBQ9Kvn14IlYJyckiZuEotrs7FoBxLDQLieijkZVcRgsMyxtsqyKBBJIJCqkmFisqgISPshtsYiFhQErFCERo7FQg0TPB7pBzFQ7CeJJB4AGTWOhbg4eSDQQElUVDsJuiVoOOsKCw4aO6qylWAKsCGB6EGDEqdqdorp8YyOrMniIj7BZRWPmevUKLJA5oGJoaZxHebsjJp2LpgOXF1XIi7inwdFFj96q+InL6HtJWXIfKCGG4ivsn0+fB/Gen4O9WBgu5MqOQCybNxQ7GdgxBq1VST/C5Id5tHd0xYlh+jBa1QZOfUHaR15B4NGck9MmnToh4k1SOQ7v9h58z+XGUwk2+RwwTr1QHlj8Bxd9Luel6PTJhxrjxqFRBwAAOSbJNepJJmSO8+m3bT4gIfHja8ZAV36Anp6gfE9LmhoNfj1GMZU3bGuty7Twa6SsOGOPrl+5UIKP7l05INtQBAZMk4bVdo5vFYeI9eIwA3Gq3dKnZjw7iMubZR3rasCQ+nCcU+rycedvuNQZ1T/tv/vGaLT/cxerfsd0NaDCLqAZ56+ryftv/ALxktJr8u9frH+0vViR1jen+4LV88o9EDiJ+RUpYsksq05mqOtSsnj1AYbHYrVU1kBh7EjkfjMftruZg1VsrtiyEfpF8xJ9eprkE81fTnioDV9q5Eysj4HKF1x4tuN13OxAQ+ITtfcW+yq+QKxJ4Mgmvz2P/ACeYA7T1bhSm835eosCv2rFirmUscZdl2ysP6O9HjBOTUZ2JIIUeEqlR+rsCc/Pr8ZtdndnYcN+DiTEpCghFVS20UC1DkzMwdo5TROgzr9gtu+0Axa6AU2QF5F9WHUG5r9napsuMZGxPhYlwcb2GG1iAeQOCBY49ZUYRj0JtsstBtJRjNCQZEbbCVFUBDBZICKSEBjVIkSZjGAAiI8TRQJKZMcwReIPNaM7CqIdFgFaWEMTGh6htPp2c8cAdTBj85cy6/FiWgyttbawUglW9bF9fhMMuRQjbdG2PG5ukg40KDqCfmSPyjNok9LX7yR/Gcr3g705cTgYiioF3MSjO930C2OKrmH7M71M6lsuJl8ofGSUUZFrkgmq+XPXrOH5/Fff8+Dvl+n5VjU64/Jr5cRU0fuPoZGWhqMeVDtN0LErCd+OanHcnaPPnFxdEhI4cCJexFTcxZ9qhdzEAFjXU0Bz8BJx5QkKQcyRMFkMBlXO84vUaHMcrEYcrDeTa43YEE2CKE7VdM2Rtq0K+0x6ATUTRsFVS97RRYg2f4/8AVS1l+H12ZPCsr+ro89Oizn/0+o/wMv8ApkG0Wf8Aq2o/wM3+mekHRg/rV+P85D/w/wDtt93/AHh81L2QfJw92ebPoc/9W1P/ANfN/pi02kyjIt4My8jlsOVR19ytT0huzv8A3G/OQbs9trKMp5BANGwfxjWql5SB6KPhsytO8vYzKTaV8TBWrnoR0IlvGZEqfKKja4ZndoprFyl9OUdGxpjGN3NK5dQX2cDaFLsTZY7FA6mMMHaC0q5dOUDglsgdnKEva9AOKSvcMw42gnZWPIo0swseHtLktk09lAKF7Q4L8qNnFgoeSehHxOppBk8NPGKHNsTxjjvYcm0bil87burlgyWBNzAenr8hDoOyen0pbk8L6e5hNTjw4kbI/CIpZ2JPAHqY+ftLBjdcWTKiOylkVmC2o9bP3/gZ5129371J8UabGvglHCZWVlIVlKrY6h7sgDk2vHWZ7m2aximuDsdDr9PqXZMBa1UsGI8jKCASD16nryODDshBoiiOs8c0Wqc22NCc+Ilxmwajcux2TxAEaiaBPSjYPPWvYtHlOXT4srNvYqA7gBQxsgkAcdR/26S0/wChThSFFFFLMRRGKNAZFoojFARU2j2jFBJVHAmxiBKkSaOYaoFloxDDJkogn0IJ+4yr2p2RjxPlzsSyMQ5xMQFuybU9d1s3+9CES9o9QmRRiyBSRQUMAQwHTr6icur06zQo6tNneKX2fZxeu0q5aCMoyFmV9rABUrg7q4Isgnp19hA6vIyYtnLqVVUNfVeXqAx4Y8Wa9vhOy7V7tYs53gtjewWKGg1dLH+fWPk7DC6Y6fEVCkbQGUEKOASPj6378zwn+mTTq7S6PaX6hiqPn3T8fyYfY3aOqJREwbseJdr52Xw8bc8lQfgByL6zpEMrHbjRcKNvKAB29BXoJNXnt6XBLFCm7/weLqM0ck7SLQjwaPHJnRRlY7GV8jQjtK+RoJCbLeiakJHqxv8AAS3izcSjoj9X/fb8hLOKZS9TN4elB2yGN4hmM2nybiQj/bZl+tABpiV63Q8zGqrpYj49GxJDLkC7CL8QKb3H9k+x6HjoPSG1e4tz9jYOUyByGUDouQSX4Ir6wigCpAoAWPKOty2YmkUm2C7QNop9mFfeD/IQGIw2u/Rj99fyMBiM0j6TGXqLSx5FTHgAjCaRqcfEEfwv/KCMG5PUdQbHzEKsE65POe/upy/TnL5l24cbogyYkOFFyK22wbO48rv4AoXx155WzouNsQfFgZDuZcv/AJZ9/AFignCOAf7J5N8+gd5+wn1mRc2JEdncJlFsMqLsC+jL5dw3Hn9RfQkC52f3KDqjanI/DF2xYyUHiK5ONw9l1oV5Q1AzJro6YyVcdNHCdmdjPq8j49PiRXLs/isWLYHLKxZx1RSy5aAvcdtgCq9X0PZy6TSrpw24Kx2mto8zl6As0OT6wnZHYuLRnIcbvsfaQrsGGNVLGgx8xHmPUmQ1Op8RvL9lOn9o+8UIckTlUaXRG4o0U3MBRRooAIxSJMeUIEBJhYyyQlMhCCyGZehhoPN0++Jdg+iuJkdqdpeHk8Pw1Y7UYbsgTJkLuV241K+cirbkVY95s1FLEYq969qghspUqzLuRWJCoHNAmyQCOnT5cxs3encSHbIii1YbVU7ghfb5eDYUgc8mhNljIFotv+0LcUuy+0ceWwi5FpUe3UC1cWCKJ9COvv8AOaQaCuSWOhWHR4UZJWBkriaLTCu0r5DHYwWQxJA2XtAfq/77fkJaxSn2d+jP77fkJQ0mTWAed8ZLJkG7dipMpXHtcAKLQMHoG2IIuc8lcmdEXUUb8Uxhk1JcMzoiFrVFfDaqFQHeSh3La5T5aPIF/sxwDVHb4mpCgMm+vozE8HxKPh1tvZtH2uWs9KW1lbkbJkTMPG2tVCWy4sjbKAvGoXIUbzWEHAcDy0TQPJ6CSfSSz7tQAniKUKfR/wBHubctFD0XbyTdg/ebQ3I09f8Aox++v5GAxQ+v/Rj99fyMr4prH0mU/UWVk7kFjwARkSYjIkwAE+M3uUkN6EGjMQd8HTdv5VGzgHGVzEjELZiNqkcB+DydvG6wZv3FcHyJOilpdY2pUsXYqHZaJUcqfVVPB+Boj1AlxVrpFceACijRQEKKKRJgAmMaQZopVE2SWSBiCySrHYkiSwb8n5SZPoI6pDofYMJD49OirvysqIP2iAD8yYfTYxc53vXqMmPVYSCfCCcCwLN+er43bQALI69eTJ3W9t0del0yzTpv3f8AR1Gh1eDIPqXxsB18Mqfyh8uJW4ZQfmOfx9J512z21jLgHThmZkVDsBdGYnlaB5Ci+CefcS53Z7ax7Cv0rUIdwYDMTmCK7BUUs62bJFC75r2EzlGnwzpzaRwql9zf1ug8M7lsqT69QfjK6pNPR6hsy5EbadpKh1Uqr8Ag7STXUepuj0lZUmkJtrk83JiqQALFtlnw5E45e4iiuRBZFltkgMiQTBozdV24dMoQYxk3FmsuUroK6GBwd7Sf/TqP/k//ABM/vKOU+TfnM3s8LuAYbgePtbKN9bm8cMHHc0css+SMtqfB0471t/sF/wAQ/wCmO3epv9gv+If9MylwqD9hPb9OOCSBfH3/AIxjiXpsQ3dfXjp/0R+EXwsft+SvjZff8Gk3e1v9gv8AiH/TIN3tb+rr/iH/AEzLfGl/o09euoX3lDNV8Ch7Xu9ff/rpKWHG/H5Ilnyrz+Dr9L22dSChxhNpVrD7vcV9ke80MU5ju71f5D851GITDJFRdROjFKUo7pdlhY5kVkqmR0ETImTqF0iW4v0s/hFdBVljTaMAWws+x6D+cLk1KIdrEL9mvYksEoV62yj+8I+rz7EL0TtF1+Vn0Hx6DqeAZwXa/eLF9MXGma2dFdVYqqDgOu5mHlbheKvyKN37PNkm/HLNUq6O5yNidgljeyuwqrpWCk/HkiUc+Eq1H7j7icJpu12yOpxvkNgB3x/bZQvIVr5O4ndyfe+k7nRZTk0yOQR6jjaAt0FUHmqqGHM3La0TJWiEYmSIkTOoyIkyBMmRIkSkSwZjxyIowDAn2hUws3wEuJh+Au+bAPH3w2z2kOXsaKHuURpiJJUlvbIusncPYgQNc+0we+2ZmRcC0Ay7y5UEj0XaT0PXnrOi2yrkxofLlUMoPkarK/D5RdnRpskcWRSkrSPG+2tLnXGd5DKhDg1ta+RXFXdkffMXRa3efDLeHkyL4V5BuQIzDjd+rXvV8nnoD7T2p3TTUKBjyBF3BiK3DgH2PvUwNV/R3x5s2Gqa7QiyenHrJb5O7VatZJKUX4NruX2K+kxNmyON+RaGNHZ8QqgG83O40L/gBze4qcTG7sdkNpcRw796HIX4XYoJAHHr6XN+pS4PMm3KVsFtkSsMRGIjsiiuyyvkSXWEE6ykyWji+9Ipk/db85k6RypsV69QCOldDNjveKdP3D+cwsDTvx8wR5mXjIzRXUn9nGPljT+Ud9U3Hlx8f+2nsRXT4ykFbk7uD08o45v7+JFlf9v/AIBXr/y/3Y9qFb9y0+qP7OPj+wtfOU3a/wCHTgcCpEhuu+x6+UC+v/L8IxaUkRJtnQd2ftP+6PznU4xOU7qG8jj+x/mJ16LOPP6jv0/oRMCPHAj1MTpI1J6d9rqT0JK/j0/jUjIOtiouwujge+C6pe00U5NVkTJlxMmPEWTCumLIGRgVIZuHN9BwevTB7U7Mf6XkzHBvTYfDQl8LZLLUxL0zEnaxP2h7eWey6TtAfYyGmHRj0b5+xlvLpseTlkR+KtlVuPbmc2TG27XBsmnyeX92OxsrYkQ40YAkocuM2qvzTsgYO44pioA22K6DttLo/Ax7SpRnIDDfuDUb3e98dbs7ufhqtmxYV22BXRQbPyqZzZWyNubgdFX2ErHiae59kyklwhSJEnGM6DIgRG2yZjShA2WKSMeKxUbe2IiSuRZpidJEiRaM7wYyD3hRLYSpF0B4MbdH3RgcfpO8auniZNPlx8qAMf1v2sYfrSixbLtHJYBQCxAl3s7tZMjqhw5kLPsNhGVDsQ05De7beLog3VGujDydwtipAlSuBHqSuVO0NaMSpxbZMmPGgsA2x5PxpbNetV6xOVcsaVukR12tTCpZldyoB2Y13ubNDj0+8ic5qe++PGNzabOVARn27GZFbfRYA0PsH1rnrwaxe1O6Go1WXLk1HaTeGXcJiQE/Vk2FYWF5FCvgDZ6TFy92sOkyb2z5s+29uRlVPPe5h5geN+0kg3d9DuvmnnaVjlHarZ6N2N3l0ms8uHJ9ZQPhvQY8X5SCVfofsk1NZknh2s1ew704KMCpx7lbHt4BJXkEGuR6jp0nq3cfvF9O0u9wozYnOPMF6Mf1XH7w/iGl4c7nw0Zp2Zve3s7NkdPDxu4CEErXBuYmHsPV/wBXyfgP5z0051HpH+lr7Gd8dRKMdqSMJaWEpbm2ee4uy9YnC4sii74oc/j8I/8A4frh0TL8eR/Oeg/Tk9j/AAjfT19m/hD5iXsg+VgvLPOM3ZWtcU2LKwHTcQf85XPYer/q+T/h/nPTvpyfsn+EX01f2Y1qZrwiXpMb8s4zux2dmx5GOTGyKcdAtXXcOJ1IWHOqU/qxI4Y0B1mU5yk7aNoY4wW2LIJjLGgLlgaQ+pH8ZaRAooSvqdbjxtjRmCnM+zGPUtV/h8fcgesxczZRXkE+mYc9R8Ji67V58eSsenbLj2LyCF+sO89T1HlUHjjdOpuU9XjA8w9TR+fvKUrCUa5OSftHV7lD6EguECgZQw3FGd/Nt6jyrzQuzdRB9W2LMy6Tw8iad3wK2QPvz023HQAFWBZ3AeYV8OkuMZabM2kc1o8+sBC5NICba8nibE2+KQpqifsUeaN+gvgw7R1gu9DdruAGYEL9UrbLCWTvLLyB/CbxMcQ5DgFjJKqSpUlQSpolSRypr2ktskTG3RgQIjVJEyLOBAQgsUSZAekUANRcsBnzgSi2pqU9RqvjEoFSmXcmqgRqPjMbLqjfELgymXtpGSnbNlNQYZNRzUoY3hDIaNE2aCPJHNKaOfeWEx3JKE2QnoCflOZ70aU6nJpsZL7Azs4G0KQChtmPIAAJodeh+PWeFxXsb4nNd9tBky6XImN3Qty4x1vfH+vjBPSx+VesjIt0WkaY3Uk2Y/ZHeLT5tTqM+IuAiu+oz5GcYMeFDsx7SeAXUFrFmg3Iqo3ZnbCa/fvGPwuUx4ciWoUMRuJ3cMRXvXAHucHs7tfAOzvo6bQqZ8Y1SvsfdpWYqOSP2q6jgmuhEbW9h9mgNlwarJpSLO1FysG9SSlbq+I8o+QnnT546PShHu+fBDvJi0HOPArDKMmzIceVnxIeFFK4tqZlXy9L9pc/opLJqNWm6x4WDcPKKYM9Dj5tz85yZzAh3xMM2VV2jevhgKx5ZrItaW6nedwNBkwYWyZgoz5yC21Qo8Nb2AgcX5mPp9oetzo00G3+xyaqMIpNf9O3zG4OoJstyStO/o4eye2R2/KPukSYBQisjUizQbPKEWsfWW9EfOB86/CZSOY+TIwFqSp5oqaIsVxIkhxdGd347wbBjTA+Zci5S4bFQXIUtWTddmi3Ioj3rqOVwajJmdXR8zZg5yoM6M2PeGDnY17RyB9k+nTidindUtjFahcisCWdldHcBSuNdytxtFWSCW2i/W1j7uZcW1UxjINtHxNRkbHfuxblfkqEfKeXmWR+D0ILE1T6Kuh736jEzfS8Y20CNtYglXe0MLYVXJInT6btNNTpvHQOqMaG8ANasAehI62JnaTu7kBO/JsXcxVcWR3G0jhQHFJXw/hDNpTiK4VzO6gEsjBKBJBBJA69T9/N8TfAstrcjLKsaX0sIHMRywqpBZUncco5aM2SoAMfeMYCCNkJ6c/KMmTmjBj1B9YzNzx6CvnARdWA1PSRGWAzZLgMEmoqKCZIpRIXM5mfmYzSyrKWTHKiyZIqovMvYEgkSW8KwlIIxLGNYdRBoIYCYtmyRJJcxNKQhUyRDsv75S1ZBFRmzyjqc1gj34lRjyTKXBw3b3dXSarI2XG5x5TuGR9OykPdg71HF9b6XzdzHTurqsatiTVK2B+GTIjbq9aInVHsZAFXxcxCKqoLxqFVFYKKVBdbup54HtK47CxivrM5ChBRyLTBQAd3l53bbPuSekp4Yy5aJWolDpmf2P3Vx4sgzOzZMgAVf1cagdPIOp9eSeeQBxXX4TU59excYr6zNQ2eU5Fo7WD0fLdGuR0Nn15mvpl2IqWzbFVdzG2ahVsfUzRQUVSVGUsjk7bs1EaFUykjwniSGjSLLW6MWlQ5Y3ixUPciyTIkQIyQgaFCuyQElUYSQjGNi1hwE0y7SCxVyAKFW3wqxz8RNJe3F/WxuD8KI/jUw9d2cuVlc5MmMrjyYz4ZxjcjlC1llJBtFogiVR3fx2pOXOdu3jegDbXLeYhbN3R581AnkAyGk+0Um10zoMnbTZB9UoAPRyQ3HuPT84DTirJNk8knkkzITsDGCp8XP5ciOPrFFlFChSQtleLq+pNVZmvcFx0Dd9lwPBZHgdxjXGAooo0AFUiRJRQEDIkWWEMiYABKxQhEUBULJKmSKKUiZEVlnFHiiY4lpIYRRTM1Q8g0eKNCYF5VyRRTWJlIqvK7xRTeJhIjJpHihImIVY5MUUzNUQYxriijEEUw6RRSWXEOkmIopmzREoooohijxRQGNFFFAQ8UUUAFGiigAxkTFFABGNFFAD//2Q=="
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">GLUCOTRUST</p>
+                <p>GlucoTrust is a 100% natural product as all the ingredients present are obtained from nature without
+                    any chemical or industrial fabrication.</P>
+                <p>GlucoTrust is an FDA-approved supplement, which means that it is completely safe and won’t harm your
+                    health.</p>
+                <p>No preservatives or additives have been added to the supplement, so it is safe for people suffering
+                    from different types of health problems other than diabetes.
+                    It is completely free of gluten, ensuring that people suffering from gluten intolerance can have it
+                    without any concern.</p>
+                <p>Besides controlling sugar, GlucoTrust can also enhance blood circulation, sound sleep, and decrease
+                    cravings for food.</p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+
+            </div>
+            <hr>
+            <div class="items-details" id="i2">
+                <a href="https://6825bucppm1y2u55ilrvrnviis.hop.clickbank.net/?cbpage=vsl" target="blank"><img
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgVFRQYGRgaGhgcGBsZGRobGRgbGhobGhsYGhkbIC0kGx0pIhgaJTclKS4wNDQ0GyM5PzkyPi0yNDABCwsLEA8QHhISHTQrJCkwMjQ7MjIyMjIyNTU1NTIyMjIyMjIyMjIyNTIyMjI1MjIyNjIyNTIyMjIyMjIyMjIyMP/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAFBgADBAIBB//EAEoQAAIBAgQDBAYFCAgFBAMAAAECEQADBBIhMQVBUSJhcZEGEzKBobFCUsHR8BQjU2JykrLhBxUkQ3OCosIWM9Li8TSjw9NUY5P/xAAaAQACAwEBAAAAAAAAAAAAAAAAAQIDBAUG/8QALhEAAgIBAwMCBQQCAwAAAAAAAAECEQMSITEEQVETIhRhcYGRBbHB8eHwMkKh/9oADAMBAAIRAxEAPwD6rxlZtN4V84vp2f3vOf519QxqzbYd1fN8RbguJiH/AItPsrD+oRvDfhlWVXEx4C5lfY6SR5a/f5054fVRBnQfGkzE2CsMp1B3PUfZTDwDFhlIHu1mCIBX3fKKw9JOnpfcz43vQwYLFlOydV+I7x3d1F0YMJBkUv2+c9avweKynqp3HTqQPfXThPTSfBpjPsw7XlcowIBGx1FdGtJYJ/DfSYnF37LmQGGTbTsrK6Dv+FZuMMbjydpk+ApZ4Ghfi+JnZC598qo/iPlRn0sx5tWgq+0zCT4SY8K5k5SqpMqjbdNif/R5a9Zdu3jzLGf22J84pv41i4tlVgCD4fj7qC8Lx9q1adxALuWIGkEgT8ZPvofe4kLgqqb1Oxdz3A3iHJnn8tq0DAO93MiyHJbcDtHVhrz0J99BsHelyJgSSx7hv7/tNbLHGG9cGBygCBHIdBVdE4bv3B5kJtuuxjSeTDtKfcyijWDuaabMAfMTWZytxc4Hagz+sNfiK44JezWrR55EB8QoE0CbrgG4LAHCcRAWfU4i3cCDkjqQ5UdNAxHcT0p09Hr+W49vlMjwOv20Puqly2twEN6t86sNYyyjx35Wce+u8K+XEqfrIPgSPsFbunlv9giqdDnFK3FeM3LN8KWXK1xVW2UMNbKgvcDx7YY7TEDbWQ0ihXHcMrqs82A+37BWqabWzoui1e5vwl4OoYc60Vh4Vby2wK3VYRJVauCSARIiROonUT0qyuGHOgDqqmTWddoidPLr31xexSqjXCwKqCxI10AkxG9ZeGcUW8CQrIwMMlwAOsgEEgE6EEHeo6ldXuOnVhICvalSpCJUqVKAOLgkRXzvjNrLcdeony/kTX0WlD0rw0Or8ufgdDVOeGvHKPlEZK00KLnv0/EV5w/F+quamFYiSfonk3h17j3VLilSVnbTyP8AKqLhJB+yK85CTi7Rh4Hy3ezpI0Mwe411k0NK/o5xIzleSV/1LsD4jQeFMeJuTlC65vxPhXXhkUo2+S5StG3hHEof1bbH2T+PfTBSHj84AIEFTIIAjTrTH6P8V9cmVtHA1EzI6jrVuDNT0S+xbjn2YlejmFI4hxK5p/zVQdebnTpqtD/TUkwO8/IfzpgxhTC8SugmFxYtEdFuKHVhP6yhT4g0J9LMPmPuPyqOWKf2E7TPnuKukW99jr4HT5x5mq8HiNvfWvG4adPrTPxodgrRBed1JX3rufx17qhpWkbCCPlETqT2j8co7h8/dVWHeXnx+6qXPKtGFt9oVCtgQ9cKxJKAz+IpeucXuetu27ZhRmGnLXl050U4Q/YXwjypf4cma47/AF3cj9nNC/f76hGKI9x19FrmawbRJBZSJHIsIzD51svY2MYls7paNxjyy5io/wBUUN9HkytHh+PjRHjo/Oae0yIk84DG4w8Dmt+Rq7DCVjUnJj1gMWLiyKz33ztPISq952ZvsrPw20beHMe0RA7i2gPma94KwdUPLIp8wCfnXQe7ov7BbDplUCrq8mpUhEpe9KcWhT8nJYtdyjKhhsmYFsx+ipAKz3mjrOACZGk+AjrSAqsrtiHuZrjFgQIhRtz25QByis+ebVRXfv8AIE6Zo4Tgir3La5hbZpVA3ZQCIAMDNqJ17hsBVlnGrbxb57vaEZ+eUASM2UQigGNec1fwfittGg9pjGoMb/tRVPBsObgcIxRHu33uMp7bzdZbYDbiVWT3EdaqlJKnjSbRbHe7Y24fFo65ldWHUHSh2K4ySG/J09bknM+aLYI3AbUuw6KD0JBr3E8JssgRlBUfWCuT4lwSauwmHVBCzGm8QANAAoAVQOgAqTySe2y+gKK5Bf8Aa/8A8pf3E+6pVn5La/SN5N91Ss1ZfJZ7TRhPSOzcHtQZiPfvr+PGruMWFu2jBB0kQZr5YtzXQ68tIHz0orgOKujg5yCOR10O4PUH7qhD9Qkv+av6HNjn8lWOtkHUajsn3bHyj41k2/lWjifFDmDOgI1Dldz0MdRXgtgqCpkNBBGxBGh8KxdRp1ao8P8A2iqaV2gZdzW2DruDI6eB6imng/EFgOzdkqco+oRqy+P2UEvJA3On28qw4fElGyt2kJ10nK3J/d8qeLI07XYSdMdVfNNxgY+gp595oVheJMl7OjQAdRyI6HuNZMTxK4QQ8AjSB8+4VXwvAXLxi2mYkk6mAAOevLX4irMk3JrRzz87Jam3sNXpdgBibS3rZg5VZGP0WUh0JjoQAR0mg+NxAvW0uARmBDA7o40dD3gyPdTTwPhl23ae1dKkEysEmJ9oHTaYPvNYrnooc+dbwVSZdMmZWIEBhqMrCAJ5jQ8iOnGEpRTapvlfM1JXuz5/f4Y124AsAaS3JZ0259Y+Vb+K27eHtRZtqHdlL3Dq5gaknltsIFOGB9ElthlN4suZioyRkUzCzm1iCJqrHeiNu5vdcROwXv6+FRlgkwVppo+X8VwwcZ7Yh/pKNm6kDr86z4Fpy19K/wCBbI/vrn+jv7u6s6+gdlXzC7c13EJlJJGsRpOYUo4JVTCnYtWbhWwY3zFV5anTTwGvurnh+E122gR8BTcfRm32YuPpPIfSyf8AUPjXNvhKJ9MmYOw55T1/WFNYJeBOLOuFWAGk6ADU8hESa9wCHEYg3I7M9nwG3476z4+2WtlLdwISRJKz2dyN+cDXpRz0dxNq0oDMS3MgaVpx49O7JJJBH0ovm3hsqkKzsiAnYZjroN9ARp1rH6OcIv4dZa4TmAJRjmCHeFgTrJnU7Cs+LxT3sVnNtmtYfVVWCzFtPWEE9xAGugbnsb4fxy1dOVSQ31WEH7jWVyUst3XZfyX3UdP3L7vq765XUHuOhB7uYNALnrsK8o7Nb6OSwA+zxFMl3Do+pUHvI186XOPYKzZQu9xwrmAnrLpzE7qAWZQPBRUsl1b5XdEaQtr6RXibiE/my7uBrmIZiQmafZk7e6ub2JFw5zAAEEyBMcgOtY7aCbrNsYCAfVGgE7TtVS8EzkNdZRJAVXLOADMRbBCxodW8TWfHgyZ3e7SHjxym6Re3FxcBS2Sinsh7YmSdMiM0Z3O0iQN+VPXo5w8WbaqI6mNhoAAO4AAe6l3h93B2XWSzt7KuQCoOkqijRQJgkedOHDsVbuLKMCJIHuMT4VtfTzgt0y6WKUFujYVmulSuhUBqCiimzz1I7q9r2alSpBufHrwyjNkABOoO6/yNV5p2Ov40rp1uohz2yV2nUj7jpWVCu+seMweh0riyicsvcEggjw6fjWu+C4vKrYdoBktbJ06lkB5mdR4msgvDrp+NqovLqCujAypBPuIpLhp9xpjMiKRJIjvA376FcUKsBl/GleYbiIYhX7D9+iuZ+j0PdWw2C5CAS7GBpz752qMU01Gt/wBwYIwlz1kW2JDL7J5so1Kfd5dKffQXEq9xgghUSBtrLD7qS+L8KvWYZoAmAykDXfuPL4U0f0b3Q928+gfKgcDacxhh4x51v6eDjlSaonjVSQ/sarauyK5b7665sK2/H+qqrvP3/wC+rm+//dVVzn7/APfQBnfn7/m1UsNR4j+JK0Pz9/zeqG394/iSgDE3L/L8rdD73L/L/wDHRBuXgPlboff5e7/46AAtw7e7+GrsMdqqujb3fw1bhhtTEMvDLwW3HMn7BQ3iWBIPrE3305/z76ov40W4E8poDf496+6tkOUtSQ7Lo1wj6Cn6K9W91Zcyi1TLIq0NnBOPtqtzedP50P8ATrjCMqWlZSwOZ4YdkbZOmYzMH7azX7CqJtqNBAUaDQaUq4m5OIZbwyi4ILGDvAzDpy3268qpSlWl7/yhxVugrZtZcjZwUdFaO/ZiIPIRI7qu4iWBYIAq6lmYasIGib6CeUmfCs+HxHq7YttlzAsc2XMYOoJHOYGnPSu7zSiyN1I7TSzMRJLaRACk7DUjTp3ukwrFjXmjudPiWON1u0LmJxalhlOuoBYyCYAGUH36k9K2YHiFy05KNlMjQEkabTOpACnpqalvhihiCoIBI210JG343q58JsQPZ1B9+x6CAwjnU4NzbtFsXr2aH/0f9J/WwrLEDtE7zryG23z6atSOGEivkFvFi0CUOVTvoYaTmB7zHlNfQPRninrbYJEdJMkjqeU+Fc7q8ShL29zk9ZhUJe3gYqleZqlZaMgn4PBG1bNsQygHMgXr9JJ2O+hB1I2pSKOlxgUW4sxmVcrP0iOzPLUCDIpnvvcdsxLIw9jIYMfrfWHcfsmvFxCt7RCXNIuKIDNyzA7MYHcfhRkwwyxSW1fsY3BNCTiDbGhW5bYHZlmOesGR5Vu4Jw0XmgOGRdWjMra7LqOcUW4qiFku3EJJuLbvKogH6XrAe9fM99HHsW7ctbAUOiRA0hRkU+RA91V9N+nqWWpcLt5K1j3EXjfCMl020lxlUzuQY59+k+BFHPQpLgztd9lAFQsDmJO4nmAOe/arzino4j5rodzdIE7EOQI0XddBoAeQoth7aWra202Uak7s3NjWrB+nS+ItqordElGmZfTC21y2jAgKhJeSZOYBVCgDXU/GrP6N7GS5fMRKWxz6t1oP6Wpdu3LGFtSXabjqDGUDRGc/RX2j5d1Nno/wdrFvItwu5AzOw0kcgBByies0s+FvqdUeFz/gml7kxpY99VsKpsW2A7bhj+rKj4k1YcnUedWF52LRP48fvrPdXf3/AO7767Lp9Zaod7fVaAOXH2/7vvrO5HxHzU/ZXbvb6rWS6bXUUAVXWAj3fJf+k0NxFwden+3/AKTWu+trv86HXUt8s1AGEpJ0P4iK1YeydNK4VF5ZveK1LmynKVzcswMe8A0xCZ6a4w2sSg1I9WJEwPael+7j5uIVOigRAgDmYFavT8XfykG4BpbUArsRLa+c0tq+ulZJx9zG26o+i8M4v2GJYA8i0xJ0ExymKyY85HIxCM6kf8xRIB5QJ0jbXelvAYtj2SYU79T0HnRO9cZm0uZNhHrGOaOZBiI6ipXbLcT3CyLaNsG0jtlHaLqZyk7RrmIiQBXFt8twM/1PZ5wFO3Sex5GorsBmNxnYHaVIE6ZjtoPDlWe7bQ5rmYg5gFB1zaTMa6SfnXTwZ0o6Wdrp8600zW2I/N5/p5JYTsQ209cumvfXGKxQFtt5Zz4kzIPmooOjvOXUnKWK7aFtSYPMgaaVW+JaWtuQD3baNt8Nz1q954pMueaEVsasViGgQJSAI+sBuAekyfA+Tx6F4otBYqBoAq6xpzPLwr5tncnLmzdABoY7h9lfSPQm1mgsuSOWw9w3865mWbnJs5PVZNTsfvXCpXHq+6pVFGOxfe59HST899ayNw0NcRpGU5ldY9oMCPKYPlVPEsSLYFxjAkaxpPLXkDG58K2qxMMoJBgiJMgidAN62YOmtuM9mnaZkRViMECvqWYyCGSDqQp2k+JHvrImJGa2kNlJcAE6gqytr3Sp+6uOL3GuS9ppe3BdDK3LZMSQrQWVoBKmAYkGat4VdGJyXeyMmYMBMhjufA6fGtWPJiU/ct2qXzG0bMaHVcwGh8fxyoLdxFyexlUKud7jEQqqZyou7uYjoJ66U13kzow7tOeo1FKfpLjwbYtIpWXQZYjSdAB4x30Z+ocYNJ0//X8goZeH4dLaG5rmcB7lxyM7Qu7sIEAaACAOgpf9KuN3VVPye56sZtT2M78tFb6AkbAkkjYCTGNy48Fs6rGUM4VFIA+gNzIJlpjSIq7Em3bUXLoUMQF0RTtsqEjXxPwrm9VlyRioqLV/Id3sg16GX7l60zXjmYPAMAaZVOoAAnWmcYdPqihPow6NalFgT0A1ga6e6jcU8cXGKTdlqVKjlbK/VHlXF6wseyPIVepri6wjepjBd2wv1R5Vhv4VPqiizrWS6lAC9i8GvShF2xB0JpoxNuguJtGdqAOcMNKD+mnEruHto1pgpZ4JgHTKTGtHLKaUs/0lr+YtHpd+dt/upSdIQm4nHXL7ZrjFmiNY0HQAbb1Q2GJBisdm5BrbYxX5yOUR76r1JoZmsCT4az4c6bOH3ctkFjmUsZDDloPs2oHYwxJcx7RgacieXwpgw2HR0W3cMKi6xoWJOomO+q44pyftRdixSlwj2xbdy3q0S2hkTENB57fDauMZhpkKWzIoHrG2A3gEaGc3zorh7KNbZc2XNlWeSgmD8NNOtXY3CW2yW1JCIYyndzGjOZ21Jj/xWh4Zx5RqWPJHlCkqlZZQwMASRoYII16QOVchQRnWDoUb9URO/KRPlRFuGubfrmMgEkryCL2THeIJ91aeG8PW1mJMgGLkbQSSpIOx+jVGTJpW5GWSirg9q4tzKSDb6HSOyp7J8WPlyr6RwBbQUOCQddDE6aHYkHUxXzdnZjkUxCxoJ08OQPXTQVqwuOxFhllk20k6wRAPdl7UCDqWOprP67qu5nXu3o+sflR+o/lXtIP/ABdc6r//ADuf/ZUqrXPySpeAxiUUgqwBRtCDqNeR7q49blhZMCAB4ba+FYb17XmO4gER0kcqpGIA0bVfNk8Oo7t69pCDatrc5wZuWLVyHcdsKVDqzK+XpmUg8/OsPo/gPyc3Vzs2a4SpYych1USdzG/fNUX8VkWSZ5hhsR1rRhrubUHQgEfEH5fGqZdJFtS8Ox6g8rMyMEIDEaE7CedJHFeE3rd9GuHNaXUsNQACWPZOpbbxpp4biwSYO2lUelK2rgS3cvm2xlhlIBI21kHTfyrD1sNHufYknsDMDiLV1/zTlmOg0Os8tdabrPBsyqLhmBtJIOmuYHRteRmsHob6PLYDXTca4z+wzR2E+qI6mdfCmyarydTLNFJpEowrczYXCi0uVZiST1JO5Jq4k9a6mvQhNUFhUZ61wwq5rZqljQIrZarZKsZqqZ6BlLpWa5bFXXLlY716gDlkWsHFeGWsRbNu6CVMHQwQRsQeRru7iapTEDrRQCNxf+j10Uth7hePoPAY/ssIBPcQPGlGzaIaGBDAkMCIIjkQdjX3K080o+n/AAlcgxKCHBVXj6SnQMe8GB7+6lGEXIniScqYp278AZeXPpz18q3YV2MSZAg+Wmv3UKwo1jkTrPj+PM0TtXNIjmAO+YjXviK6WNJcHZwxSWxrDNmAnQsdT7MRALE6RpoBuTVq4kjRSTJOZ48RIidTI+wHWs4OkGQM3uG8z3wDFePc09jKsQBmIgNqAOZJkST4b7XWaXsbMTezj1e6iZVQSsjkW9kkERXmGcDs+yZMZecqRlYKZA55hqNetDHtldS0ldNTlMdRnEAacq2+pzJ2RJ12MkHmdNO/3865XW9KpR1RW5z+pwx0uS2o5ukqdMsb9kGPEDYaAmTJrKzszgnl9x7IJ6CNepnnRF7VyJZDorHaRyGk9OdXWOGMzSBHiCQwPPfffvrk48U26o5fBh/Krv1//cH31KYf6iP6Nf3ala/RYWbr6KfZYedYMTbcA6Bh3nbwO491cYlRuSvv/nQu/dB0AYjuAUee9ex00uTITG8SZQbeRQSYLFpXT6QEaEjn8K7w3E8q+rzEHrBEKxBGnhMeNZsMoDsVhgPZ7M6nmubUn3dOcVncj8oJKM8NLBiGk6idFACgwNtOVYsimnaf2JDpwlhGZSAPozqf2mUH7aq4pw2RnuIl5CZJbNIY6TrJTSB2elB+HvmVRqjjSdSAR9ZZmO8EUYw2LxVr2rQup1t3ASf8lwa/vVT1WBZYqUrscRz4QRbs20RcqrbQAa6AKNNdfOthvGseFMoukdkacxptWia5lJFx3609aAtxO4blwB2hXYAA7ZdNI99GgKTg5F68P/23PizGrMcU7KskmqLeO8SuACLriejsPt76WXx939Lc/ff76J8YY8/x5+FZ0Hq7i2kOVyyq9zdkZjGRPqhZgsNSZ1ArXFJLgxZG2+SlbOKIn86Adizss+GYiaqvpiEGZjdA65mK/vAxWzDcNEs151kMQBcYqlwiQym5ujDQwRJHdXH9XG3c/N3TlCM/rBK5gntZADqusSdDrvUtSv8AwVuLrv8An+AWcVc/SP8Avt99VtjLn6R/32++tN0i4rPADrBaBAdSQM0DQMCRMaGZ5GR7VKk+xXbXcjY+7+kf94mu7XEro/vD8D8xWR68SoaY+CxTlXLDljj19fpA+Kj7Ir3i3pC93D3Ldy2naQ9pSREagwZnUUJU1VjT+bf9lvlSljjV0Tw5Zqa37gqzc6fgVsS/sJHMCSd9QCANuQ8daD2rmh51oFwk6ax4xtz113qCkerhkoKpfEASs6jWY1+lMaxpvzFXI40YiFGmqrmkjXsnfmdevmJsMYjSI13IjUzAjaeVEFvxAInKJIgRAHMHQaAa77a1ZGVmlZLRa7aN+cAB1ysWXaOyco0Ee6BWrhlwJBI7MiBbBbMeQlSdPL51je8CMzfR00YB9tDB1OgjQzoDVmDxapFwlhET2ixEmdyJy8vHxqOR+1/Qhl3hL6H1zhWBS7aUsmU9DEjxjSieH4LbQ6AVi9ErqvbDAzIpjrnnCM/5In1RUrRUoA+UPwhR1ZurbeX3mseKwy2x2pLclGn/AIFNOMQqugkn2R9vhQg8NJOZzmY+Q91ekx5b3bMrQtvZa4wLRCkFQABB5EQNx1rWmDMFQTl5jlIHPqQDRVcH2oHLU+/Yfb5Vov4XIEHXMT5iptwT27huYWsaKw3IHyq/DYnI2VjkJ9kn2H7v1WHMeHWttnC9mPL8e+r34elxCjiQdD3HkwqjNk9uw0hhw3sjwFWkVRh0hFHQAeQrRNcJlx7NKvEcOUxDmNHhgfEa/wCoGmgCuMfgBdXo6+yfHcHuMCnCWlkZx1LYQuKntactf5Vk4lK3fWrqrsbiHlq2Yoe9ToR94ohxvDPbaHUjoTsfA7GhNrFMkgQVPtIwzIx6kcj3iD31vjuk0c6bptMaMdxDD3sLduBQGITOumfMGAUk/S30b/xVfpHxG1bV7dsKXdQrFR7KgaZiOg2H4K0120d7TD9i5A8nRj8a5/KLY9m0J63HL/6QFB94NQWFJ9yTztp8WcWlyW3c6Z1KJ+sSRmI7gBv1IrA1bnt3LhzZXc9ymIGwECAO4V7/AFPeP0I/aIHw3qxyS5ZSoylwmCHrlaMHgjfScDwBPxMVpw3B7fOW8TA+EVU80UaI9PN9gItd4zh102bji2wVbbkkjKICk6Tv7qdcDhUT2UUeAE+dc+kJ/smI/wAK5/Aaql1F7JF2Lpakm2fGrb1oR5068uf40rGBFWW2PTrUUztRYUw5Hyg6zz5fjY1usnQdsga94nl7yR5EUKtNoDzJGXcA6/P8a0UthiQAsrPanTQbgHSNz4dKvga8e5chzEqI2kiCGOk9CJB69D3V0cVbe4tsOE1hiIgkaSCwgHeevxNd64cyourkATEB2mSCfrHXY0T4TwW6HDs+vRQD5kiD5VTny/8AWP3K+qzaVpT3PpHoXbZV3kddNfLSnOgPo1aK2wCPOj1ZjlEqVKlACTbw4UQJPUkySeZJqz1QPgNT99c497ltjNvMvKDlPv0INY8Ni3dibilUA0VROsjVjzNb49TGkkVaGW4bD76asST79vIR5V1xTJ2YM5GKN3EgN9lUXeMhdLVss3VtB5DU/Cl/F4nFW2e7cRXS44Btg5HAAkXVeDqNRBEQaJdZFTTfA4420MX5QsAg6qRmH6p0PxIPurexVRmJAESTOkdfClfB3yTCZirb50UN+8pg+QpixPBnuIo+jMx0POKWXqIqT07r+QUHW4VwxlQe4VdVGHHZUdw+VC+OXL5u4e1Zveq9YLxZsi3D+bVCAA3iayEg7NXWRXzFuL417i2xdvMVF9WNhLIZzbvsgdhc0URA0PSiNnH3/WC21zGaWrbEIiO4Zs2bPkhQdB7JiosY+YnUR50GvcNsk62kJ/YX7qTMVx3FK9m6LjOtuy1y9bB0e2uIa0xK7FgrAz+rNcXOO3b2Ps3UusuEN17SLJVbmS0zvcZdJEsBr9UbQaak1wJxT5G88NsDazb/AHF+6vPydV9lFHgoHyr5z/xTd9f+WZsR6j10ZMj+pGGy5BczRlzz2o66TTT6dYp0wga3cdSbloBrbEOVZoIUjeQdPdTcm+4lBLhBq41YL4r5/jMTjLaXGDY5LcWxmxEC4LhuoIQjkVLfbyrn+s76NcX1mLUfk99gMUoVsyKCrJ1jnUSVDleriyNaUrPGLtu+zXbhNmEQz9BzZS4D74YeJrNa4viyfbcF3UqiIjuqPbd1UK0ToF3PI0AfSbO1Z+PmMJf/AMJ/4TWb0duXGtK1wuXJafWWxbeAxAlASB486v8ASL/0mI/wn/hNJgfGg0bTHxJNaUG36xjfbrVMQvhHzq6ww0J5fbUVka2LY5HE3YVB2tASu4026UYwNks66DIVB6Hta6d4yxr41OD8GuXFNxEZlkyY305daa+B8FbKIGwHw5GrPVmXfFSqkccK9HMxnL7UZhHZaNASp0B8KfeDcDW2BmGtX8GRco0gjruKMgVEzNt8nKoBsK7qVKBEqVKlAFVyyrbiapOBSCMorXUoAF2uC2lM5asxXC7dwQV0ohUoAGYfgtpNlFEFQARXdSgBfsbVj4twazicnrkLZM2WGdYzRPskTsK12thVrKDvUxAh/RXBMqKcOhW2CEBLQAWLHnrJJMmi3C+GWrP/ACrap2QvZ+qCSB4AsfOuRYWfZHvArVatLyVf3RSYkYm4VYTVbSA5GQkKJyO2dk/ZLakdaXsQMGB6tsMMltzbH5mbaNchWAIECc8H9qmm7aUGQonwFB24PZztcNtXdnz5nAJU6QBpoBE+JNONdxO+xme/Y/JSfVj1AUobeQZcobJlybRI2rLxW5h7SJbuIuRVzIuSVUW2RVgciC6R/Kr/AOpVCNbNy4UbN2CbcDMxaQQgaQTIk1xe4SGOZ7tx2yMilvV9kMVLQFtgEnIvtA06jYrZS961fBtvbLDRodJUwRBnUSDB61Rj8FbuGbiKxCsokT2XEMPAjerMNwlLbm4GYtly+zbURIO1tFk6bma9vWl+qvkKTq9iSsD4jhdllZDbUq2XMI9ooAF8gAKz3uDWbhJe3JJBMMy6quUeyRsDFb79pfqjyFSyi9PLT5VEZr4Zg0tWxbtghRJALMx11OrEmvPSEf2S/wD4T/wmr8MIqnj/AP6W/wD4T/wGgD49eTYc96M8C4aLh7R7IIEDdu6eQoMupJ8vdTX6GITcbTQBdeU6/fVS3kB9J4LaCIqAQAAABtTHw+0FByiJJPvNAeHUxYSrBmk4fXMuhq+2876GvbdelaAO6lSpQBKlSpQBKlSpQBKlSpQBKlSpQAvWNqtNU29hV4qYjqausisw3rVbOlJiRXiTQfF4oo9tBbd87EFlAKpCk5rhnQHatGLsXi8reATNJX1akldZUMdtxrrt31ifC3pH9o07Ej1ayYAzazAzanbSR01BlF/ihCXn/J759WxUKEGa7t2rYzdpdd+4+FePij60W/VvrbL+sgZBBAyFp9vXarLuGuyhF6Mvtg21Ic8+YKDwO3nWdMLeEE4jN1BtoAd52M8x5d8UAcYXFetthzbdJLDK65XEEiSJ0BiR3Gqr9VXMLiIH9oBOkn1a69RvpXK27g9u5m02ChRsNdNZ386QGa8a4s711frm0wG5A8aACdo6Vi9IifyO/G/q3+IqxMdbX2riDxdfvqjiWPsvbdBcRiREBgZ93Om4sWpeT5/wXAhtSJ6TtA3PnTrwuyqABRFDbKjpRbB1BKiQzcOpjwlLnDuVMWEpgErdWVXbqygCVKlSgCVKlSgCVKlSgCVKlSgCVKleUAL1mrTSzbw/EG3u21EmIAmP3K0rwjEt7eMYdyAj5EVdoXdop1vsmMAr1Lyr7TqPEgfOl5uAINbt+437TgD4zV9jCYG39JCf2y3wU09C8t/YWt+EvqzdjOL2F3up7jPymhL+kFmeyzOeiox+cV5iOJYK2ezbDHutifNorJc9KUGiWj72C/AA1OOK+E/2Kp5q5kvxZpPFmb2MPePioUeZqpsRiG2sKv7Tg/BRQy76S3TsiDzP2isd3jN9v7yPAKPsmrFgl4X5Kn1MfL+yDTpiTu9tf2VZvmaH4iw49vEkeARKD38Vcb2rjnxY0Puin6D8r8EfiU+z/ITxHqB7V52/zsfgtZkxOFU+xm/yk/xmhNyq1qPpfNlizWuEM1vj1lR2LPwRflXOI9IhcU2/VEZtJzDT3RQbDWhuxYGdOxmHzq0okiGEyIGRlO/XaoyhFJk4Tk2jbaotg6E2qL4OshsGTh1MeEpd4dypjwtABC3VlcJXdAEqVKlAEqVKlAEqVKlAEqVKlAEryva8oA+Pv6RYksw9ZADMOyq8j1iaqfiN5/auuf8AMY8hRtPQlyzE3kEsxgITEknqK1p6E9cR5W/++tkZ41/RhlDK/wCxUmTrWzDtTIvoWv6Zv3B99aLfolbH96/7oqfrw8lfw874FBspcZiQs9ojcCdYry+liVyu5GYZuoXXMQMo/Vjfc6Cm276I2/0j+S/dVDeiFr9I/kv3VL14eSD6bJ4Qsqljmz9eyAREbAkAzm1kgCD1rxrdjSHePpSNYg6DsxMx3RNMZ9Erf6R/9P3VU3orb/SP/p+6l68PLD4bJ4QuC3ZgZrjTBmAYmdIlelCLlOdz0Zt/pH8l+6sV/wBG0/SN5Cj14eQ+GyeEJtyq1pkv+j6j+8byH31Qno+D/eH92ftqHqx8lqwTS4BKJp7QHiYq21uNfHtT8KMr6LE7Xh+5/wB1U4j0ee0PWesVgsSIIOun21GU4tPcnDHJNWjm1RfBUJs0WwVZDaM3DqYsLS9w7lTDhaACKV3Va1ZQBKlSpQBKlSpQBKlSpQBKlSpQBKlSpQAIt1eKlSmIlQVKlRGcPVLVKlAFLVQ9SpTAy3awYivKlIAXiKrw+9SpQMJWay8a/wCU3u/iFSpTELtmi+CqVKAGbh1MOFqVKACFurKlSgCVKlSgCVKlSgD/2Q=="
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">DERMAPRIME PLUS</p>
+                <p> DermaPrime Plus is a dietary supplement that aims to heal, renew and protect the skin for men and
+                    women.</p>
+                <p>As for the ingredients, they are 100% all-natural and safe. The formula includes Chanca Piedra,
+                    Ginger, Burdock Root, Beetroot, and Artichoke. There is a ton of vitamin C packed into the mixture,
+                    among other healthy nutrients and minerals.
+                </p>
+                <p>DermaPrime Plus capsules are non-GMO and safe. You can rest assured that they do not contain any
+                    dangerous stimulants or toxins, and more importantly, they are not habit forming.</p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+
+            </div>
+            <hr>
+            <div class="items-details" id="i3">
+                <a href="https://66232skenz9q5zesa4zpz9rnbz.hop.clickbank.net" target="blank"><img
+                        src="https://www.feelgoodknees.com/hosted/images/f6/8e19c0d3a211e78aa53fa33085996a/Screen-Shot-2017-11-27-at-1.43.42-PM.png"
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">FEEL GOOD KNEES</p>
+                <p>1,000 Year Old "5 Minute Ritual" Reveals Secret To Decreasing Knee Pain By 58%</p>
+                <p>Having knees that are stronger... so you are able to move with ease, and not worrying that as you age
+                    you will fall down because you are weak... because you’ve built this energetic body that can handle
+                    anything.</p>
+                <p>Because you are on this page today, I'm going to give you a special sale price of 90% OFF!
+                    You can get your copy of Feel Good Knees with your 2 FREE Gifts for just one payment of $15.</p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+            </div>
+            <hr>
+            <div class="items-details" id="i4">
+                <a href="https://e401exefvx9vckdediqil0dv6u.hop.clickbank.net" target="blank"><img
+                        src="https://getokinawatonic.com/sp-vsl-1/images/product-bottles-6-extra.png?v4"
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">OKINAWA FLAT BELLY TONIC </p>
+                <p>To experience the maximum health benefits, science tells us taking the ingredients in The Okinawa
+                    Flat Belly Tonic for 3 to 6 months will release a super highway of health benefits, releasing fat,
+                    increasing calmness, supporting a healthy inflammation response and repairing metabolism.</p>
+                <p>The Okinawa Flat Belly Tonic is free of all allergens, contains natural ingredients and is perfectly
+                    safe. If you have a medical condition it's recommended you discuss it with your doctor.</p>
+                <p>It's not a “fat-burning pill”, or medication. It contains nature’s finest nutrients for all day
+                    metabolism support.</p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+
+            </div>
+            <hr>
+            <div class="items-details" id="i5">
+                <a href="https://e401exefvx9vckdediqil0dv6u.hop.clickbank.net" target="blank"><img
+                        src="https://smoothiedetoxchallenge.com/hosted/images/30/4b3a543e5e412492bf9e4d188701f0/group2.png"
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">THE SMOOTHIE DETOX CHALLENGE</p>
+                <p>During Smoothie Detox Challenge, you will be drinking green smoothies as a meal replacement for 10
+                    days along with whole food snacks.</p>
+                <p>What You Get: <br>
+                    CORE DETOX GUIDE: Over 60 pages of detox tips for weight loss and improved health.
+                    <br><br> 10-DAY ACTION PLAN: Everything you need to follow the detox day by day.
+                    <br><br> ​RECIPES AND SHOPPING LISTS: Easy to follow to make shopping and prep a breeze!
+                    <br><br> ACCESS TO PRIVATE FACEBOOK COMMUNITY: Get support and motivation in our detox group
+                    <br><br> EVERYTHING IS AVAILABLE FOR INSTANT DOWNLOAD AFTER YOU ORDER. No waiting for anything to
+                    come in the mail. Start TODAY!
+                </p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+
+            </div>
+            <hr>
+            <div class="items-details" id="i6">
+                <a href="https://c2a60rolq-4z5v42sg-c693o1n.hop.clickbank.net" target="blank"><img
+                        src="https://thedentitox101.com/statics/img/tsl-main-min.png" alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">DENTITOX PRO</p>
+                <p> Dentitox pro is a liquid natural health supplement that aims to give you strong gum and teeth. Bad
+                    breath is becoming common in the society and this might migh people not want to talk to you.</p>
+                <p>Dentitox pro has been designed to take your dental health and cleanliness to a new level.</p>
+                <br>
+                <p>Dentitox Pro formula is made in an FDA-approved GMP-certified facility. High quality and pure natural
+                    ingredients</p>
+                <p>Dentitox Pro is selling very fast, as thousands of people are eager to see for themselves the amazing
+                    results of this product. </p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+
+            </div>
+            <hr>
+            <div class="items-details" id="i7">
+                <a href="https://ce967tcnor816nc0m4x2jzmjq6.hop.clickbank.net" target="blank"><img src="https://advancedbiohealth.com/wp-content/uploads/2020/08/ThreeBottles.png"
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">NEURODRINE</p>
+                <p>Neurodrine supports healthy brain and memory function in four different ways.</p>
+                <p>Bacopa Monnieri
+                    Supports memory by boosting Brain-Derived Neurotropic Factor.
+                </p>
+                <p>
+                    Huperzine A
+                    Acts like a bulletproof jacket for your brain.
+                </p>
+                <p>
+                    St. John’s Wort
+                    Protects brain from oxidative and every day stress.
+                </p>
+                <p>
+                    Ginkgo Biloba
+                    Supports working and long-term memory by enhancing neural pathways</p>
+                </p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+
+            </div>
+            <hr>
+            <div class="items-details" id="i8">
+                <a href="https://2e67eslgpza-6qd78freje5r52.hop.clickbank.net" target="blank"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTmJ71U_9mLOKKey3N2ZIcc2opxFGEuWqDw&usqp=CAU"
+                        alt="image"></a>
+                <p style="font-size: larger; border-bottom: 2px solid white;">DIVINE LOCKS</p>
+                <p>The Divine Locks Complex is a brand new and breakthrough innovation in the field of hair health. It
+                    contains an incredible blend of organic ingredients that offer immense benefits for your hair. It
+                    helps repair the hair follicles and rejuvenate them. This will result in renewed hair growth and
+                    thicker, stronger hair that covers all of your head. It will help you reinvigorate special cells
+                    within your hair follicles that directly regulate hair growth, health, and hair fall.</p>
+                <p>The special ingredients of the Divine Locks Complex have been selected especially to reverse this
+                    effect. The super nutrients contained in this formula help you restart the production of dermal
+                    papillae in your hair follicles.This leads to an abundance of these cells and removes all the
+                    pinched cells from the root of your hair.</p>
+                <p class="p-interest">interested for the product you can click on the image</p>
+            </div>
+            <hr>
+        </div>
+        <div class="pages"><a href="index.html">&lt;1</a><a href="amlanding2.html">2</a><a href="amlanding3.html"
+                style="color:rgb(19, 19, 18);">3</a>&gt;</div>
+
+        <div class="contact">
+            <br>
+            <h1>contact us</h1>
+            <br>
+            <h3>email-id:yash10decsaxena@gmail.com</h3>
+            <br>
+        </div>
+    </div>
+    <script src="AMLANDING.js"></script>
+</body>
+
+</html>
